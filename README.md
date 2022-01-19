@@ -45,4 +45,19 @@ const Wrapper = ({ children }) => {
 }
 ```
 
+### Find the output
+
+```
+typeof new String(37) 
+
+typeof String(37)
+
+"37" === "37" 
+
+"37" === new String(37) 
+
+"37" === String(37) 
+
+```
+
 
