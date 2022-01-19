@@ -22,3 +22,27 @@ export default function App() {
   );
 }
 ```
+
+### Given a component, find the output for console.log
+
+```
+export default function App() {
+  return (
+    <div className="App">
+      <Wrapper>
+        <h2 style={{ color: "red", margin: 0 }}>Red</h2>
+        <h2 style={{ color: "blue" }}>Blue</h2>
+        <h2 style={{ color: "green" }}>Green</h2>
+      </Wrapper>
+      <Wrapper>hello</Wrapper>
+    </div>
+  );
+}
+
+const Wrapper = ({ children }) => {
+  console.log(Length of children) ??
+  console.log(typeof children(object, string, array) ??
+}
+```
+
+
