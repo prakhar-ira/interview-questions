@@ -60,4 +60,6 @@ typeof String(37)
 
 ```
 
+### Difference between require and import
+
 
