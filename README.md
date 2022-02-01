@@ -63,6 +63,8 @@ typeof String(37)
 ### Difference between require and import
 
 ###enum questions
+
+```
 Check if a key is property of enum
 Check if enum has a given value
 Transform enum to list of keys
@@ -71,5 +73,6 @@ Transform enum value to its appropriate key
 Transform enum to entries
 Create a function that transforms enum value into CSS class
 Project the list of objects from an enum
+```
 
 
